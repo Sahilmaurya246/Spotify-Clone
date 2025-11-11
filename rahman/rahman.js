@@ -16,11 +16,11 @@ let songs = [
     { songName: "Enna Sona........", filePath: "../songs/5.mp3" },
     { songName: "Tum Tak – Raanjhanaa........", filePath: "../songs/6.mp3" },
     { songName: "Tere Bina........", filePath: "../songs/7.mp3" },
-    { songName: "Dil Se Re........", filePath: "../songs/8.mp3" },
-    { songName: "Agar Tum Saath Ho........", filePath: "../songs/9.mp3" },
-    { songName: "Masakali........", filePath: "../songs/10.mp3" },
-    { songName: "Nadaan Parindey........", filePath: "../songs/11.mp3" },
-    { songName: "Ye Jo Des Hai Tera........", filePath: "../songs/12.mp3" },
+    { songName: "Dil Se Re........", filePath: "../songs2/8.mp3" },
+    { songName: "Agar Tum Saath Ho........", filePath: "../songs2/9.mp3" },
+    { songName: "Masakali........", filePath: "../songs2/10.mp3" },
+    { songName: "Nadaan Parindey........", filePath: "../songs2/11.mp3" },
+    { songName: "Ye Jo Des Hai Tera........", filePath: "../songs2/12.mp3" },
 ];
 
 // Select all song cards from BOTH lists
@@ -145,6 +145,7 @@ audioElement.addEventListener('ended', () => {
 function openSingerPage(page){
     window.location.href = page;   // same tab open
 }
+
 
 
 
