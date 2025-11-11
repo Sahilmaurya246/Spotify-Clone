@@ -16,11 +16,11 @@ let songs = [
     { songName: "Hawayein........", filePath: "../songs/5.mp3" },
     { songName: "Agar Tum Saath Ho........", filePath: "../songs/6.mp3" },
     { songName: "Tera Yaar Hoon Main........", filePath: "../songs/7.mp3" },
-    { songName: "Khairiyat........", filePath: "../songs/8.mp3" },
-    { songName: "Ae Dil Hai Mushkil........", filePath: "../songs/9.mp3" },
-    { songName: "Phir Bhi Tumko Chahunga........", filePath: "../songs/10.mp3" },
-    { songName: "Phir Bhi Tumko Chahunga........", filePath: "../songs/11.mp3" },
-    { songName: "Raabta (Agent Vinod)........", filePath: "../songs/12.mp3" },
+    { songName: "Khairiyat........", filePath: "../songs2/8.mp3" },
+    { songName: "Ae Dil Hai Mushkil........", filePath: "../songs2/9.mp3" },
+    { songName: "Phir Bhi Tumko Chahunga........", filePath: "../songs2/10.mp3" },
+    { songName: "Phir Bhi Tumko Chahunga........", filePath: "../songs2/11.mp3" },
+    { songName: "Raabta (Agent Vinod)........", filePath: "../songs2/12.mp3" },
 ];
 
 // Select all song cards from BOTH lists
@@ -135,3 +135,4 @@ document.getElementById('prevBtn').addEventListener('click', () => {
 audioElement.addEventListener('ended', () => {
     document.getElementById('nextBtn').click();
 });
+
