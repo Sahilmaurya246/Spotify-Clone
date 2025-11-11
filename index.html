@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone </title>
+    <link rel="stylesheet"href="index.css"/>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<body>
+    
+    <nav>
+        <ul>
+            <li class="brand"><img src="images/logo.png" alt="Spotify"> Spotify</li>
+            <!-- <li>Home</li> -->
+            <li><a href="../home/home.html">Home</a></li>
+            <li> <a href="../aboutme/aboutme.html">Aboutme</a></li>
+
+        </ul>
+    </nav>
+
+    <div id="Container">
+         <h1 id="name"> My Favorite Song List  </h1>
+         <div class="FirstsongList">
+            <div class="A" data-song="1.mp3">
+               <div class="AB"> <span class="songBanner" style="color: black;">Tum Hi Ho <div> <span class="timestamp">4:17</span></span></div></div>
+             <div class="play-icon"><i class="fa-solid fa-play"></i></div>   
+            </div>  
+            <div class="B" data-song="2.mp3">
+                <div class="AB"> <span class="songBanner"> Channa Mereya <div> <span class="timestamp">5:45</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="C" data-song="3.mp3">
+                <div class="AB"> <span class="songBanner" > Kesariya <div> <span class="timestamp">2:52</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="D" data-song="4.mp3">
+                <div class="AB"> <span class="songBanner"style="color:black;"> Shayad <div> <span class="timestamp">3:16</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="E" data-song="5.mp3">
+                <div class="AB"> <span class="songBanner" style="color:black;" > Hawayein <div> <span class="timestamp">4:53</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="F" data-song="6.mp3">
+                <div class="AB"> <span class="songBanner">Agar Tum Saath Ho <div> <span class="timestamp">6:41</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="G" data-song="7.mp3">
+                <div class="AB"> <span class="songBanner"> Tera Yaar Hoon Main <div> <span class="timestamp">4:27</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="H" data-song="8.mp3">
+                <div class="AB"> <span class="songBanner"> Khairiyat<div> <span class="timestamp">3:35</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+        
+
+         </div>
+         <p><h1  class="Singerbox" > My fevorite singer </h1> </p>
+        <div class="SecondsongList">
+            <!-- <div class="I"><p class="singer1">Sonu Nigam</p></div>    -->
+            
+            <div class="I" onclick="openSingerPage('../sonu/sonu.html')">
+                 <p class="singer1">Sonu Nigam</p>
+            </div>          
+
+            <!-- <div class="J"><p class="singer1">Jubin Nautiyal</p></div> -->
+             <div class="J" onclick="openSingerPage('../jubin/jubin.html')">
+                <p class="singer1">Jubin Nautiyal</p>
+            </div>
+
+            <!-- <div class="K"><p class="singer1">A.R.Rahman</p></div>  -->
+            <div class="K" onclick="openSingerPage('../rahman/rahman.html')">
+                <p class="singer1">A.R.Rahman</p>
+            </div>
+
+            <!-- <div class="L"><p class="singer1">Arijit Singh </p></div>   -->
+            <div class="L" onclick="openSingerPage('../arjit/arijit.html')">
+                 <p class="singer1">Arijit Singh</p>
+            </div>
+
+            <!-- <div class="M"><p class="singer1">Shreya Ghoshal</p></div> -->
+            <div class="M" onclick="openSingerPage('../shreya/shreya.html')">
+                 <p class="singer1">Shreya Ghoshal</p>
+            </div>
+
+            <!-- <div class="N"><p class="singer1">Palak Muchhal</p></div> -->
+            <div class="N" onclick="openSingerPage('../palak/palak.html')">
+                <p class="singer1">Palak Muchhal</p>
+            </div>
+
+             <!-- Shashank saurabh(RaagRaushan) -->
+
+             <div class="O" onclick="openSingerPage('../RaagRoshan/raag.html')">
+                <p class="singer1">RaagRaushan</p>
+            </div>
+                   
+        </div>
+
+        <!-- commment  -->
+
+        
+      
+    
+    </div>
+    
+    <div id="bottom">  
+        <div class="icon">     
+        <button id="prevBtn"><i class="fa-solid fa-backward"></i></button>
+        <button id="playPauseBtn"><i class="fa-solid fa-play"></i></button>
+        <button id="nextBtn"><i class="fa-solid fa-forward"></i></button></div> 
+        <input type="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="gifinfo">
+        <img src="images/playing.gif" width="70px" alt="" id="gif"> <span id="SongName"> Let me Love You........... </span>
+        </div>
+    </div>
+  <script src="index.js"></script> 
+  <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script> 
+</body>
+</html> 
