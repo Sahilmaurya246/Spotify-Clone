@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone </title>
+    <link rel="stylesheet"href="sonu.css"/>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<body>
+    
+    <nav>
+        <ul>
+            <li class="brand"><img src="images/logo.png" alt="Spotify"> Spotify</li>
+            <!-- <li>Home</li>
+            <li>About</li> -->
+            <li><a href="../home/home.html">Home</a></li>
+             <li><a href="../aboutme/aboutme.html">Aboutme</a></li>
+
+        </ul>
+    </nav>
+
+    <div id="Container">
+         <h1 id="name"> Sonu Nigam Song List  </h1>
+        <div class="FirstsongList">
+            <div class="A" data-song="1.mp3">
+               <div class="AB"> <span class="songBanner">Abhi Mujh Mein Kahin  <div> <span class="timestamp">6:05</span></span></div></div>
+             <div class="play-icon"><i class="fa-solid fa-play"></i></div>   
+            </div>  
+            <div class="B" data-song="2.mp3">
+                <div class="AB"> <span class="songBanner">Suraj Hua Maddham  <div> <span class="timestamp">7:12</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="C" data-song="3.mp3">
+                <div class="AB"> <span class="songBanner" >Kal Ho Naa Ho  <div> <span class="timestamp">5:23</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="D" data-song="4.mp3">
+                <div class="AB"> <span class="songBanner">Sandese Aate Hain  <div> <span class="timestamp">9:05</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="E" data-song="5.mp3">
+                <div class="AB"> <span class="songBanner">Main Agar Kahoon  <div> <span class="timestamp">5:38</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="F" data-song=".mp3">
+                <div class="AB"> <span class="songBanner">Kabhi Alvida Na Kehna  <div> <span class="timestamp">6:44</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            
+        </div>
+           
+        <div class="SecondsongList">
+                
+            <div class="G" data-song="7.mp3">
+               <div class="AB"> <span class="songBanner">Saathiya  <div> <span class="timestamp">5:31</span></span></div></div>
+             <div class="play-icon"><i class="fa-solid fa-play"></i></div>   
+            </div>  
+            <div class="H" data-song="8.mp3">
+                <div class="AB"> <span class="songBanner">Do Pal  <div> <span class="timestamp">4:14</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+            </div>
+        
+            <div class="I" data-song="9.mp3">
+                <div class="AB"> <span class="songBanner" >Mere Haath Mein  <div> <span class="timestamp">4:43</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="J" data-song="10.mp3">
+                <div class="AB"> <span class="songBanner">Tumse Milke Dil Ka  <div> <span class="timestamp">5:40</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="K" data-song="11.mp3">
+                <div class="AB"> <span class="songBanner">Kyon Hawa  <div> <span class="timestamp">4:21</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="L" data-song="12.mp3">
+                <div class="AB"> <span class="songBanner">Tanhaye  <div> <span class="timestamp">5:50</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            
+        </div>
+          
+            
+       
+        
+
+    </div>
+
+        
+
+   
+    
+    <div id="bottom">  
+        <div class="icon">     
+        <button id="prevBtn"><i class="fa-solid fa-backward"></i></button>
+        <button id="playPauseBtn"><i class="fa-solid fa-play"></i></button>
+        <button id="nextBtn"><i class="fa-solid fa-forward"></i></button></div> 
+        <input type="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="gifinfo">
+        <img src="images/playing.gif" width="70px" alt="" id="gif"> <span id="SongName"> Let me Love You........... </span>
+        </div>
+    </div>
+  <script src="sonu.js"></script> 
+  <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script> 
+</body>
+</html> 
