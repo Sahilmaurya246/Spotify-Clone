@@ -16,11 +16,11 @@ let songs = [
     { songName: "Main Agar Kahoon........", filePath: "../songs/5.mp3" },
     { songName: "Kabhi Alvida Na Kehna........", filePath: "../songs/6.mp3" },
     { songName: "Saathiya.............", filePath: "../songs/7.mp3" },
-    { songName: "Do Pal........", filePath: "../songs/8.mp3" },
-    { songName: "Mere Haath Mein........", filePath: "../songs/9.mp3" },
-    { songName: "Tumse Milke Dil Ka........", filePath: "../songs/10.mp3" },
-    { songName: "Kyon Hawa.........", filePath: "../songs/11.mp3" },
-    { songName: "Tanhayee..........", filePath: "../songs/12.mp3" },
+    { songName: "Do Pal........", filePath: "../songs2/8.mp3" },
+    { songName: "Mere Haath Mein........", filePath: "../songs2/9.mp3" },
+    { songName: "Tumse Milke Dil Ka........", filePath: "../songs2/10.mp3" },
+    { songName: "Kyon Hawa.........", filePath: "../songs2/11.mp3" },
+    { songName: "Tanhayee..........", filePath: "../songs2/12.mp3" },
 ];
 
 // Select all song cards from BOTH lists
@@ -144,6 +144,7 @@ audioElement.addEventListener('ended', () => {
 function openSingerPage(page){
     window.location.href = page;   // same tab open
 }
+
 
 
 
