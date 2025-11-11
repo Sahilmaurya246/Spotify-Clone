@@ -1,0 +1,408 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+nav{
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 18px;
+}
+.brand img{
+    width: 60px;
+    padding: 0 10px;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.918);
+    transition: transform 0.3s;
+}
+.brand img:hover{
+    transform: scale(1.05);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+li{
+    font-size: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+#name{
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.918);
+    transition: transform 0.3s;
+}
+#name:hover{
+    transform: scale(1.05);
+}
+#Container{
+   
+    min-height: 80vh;
+    /* background-color: rgba(247, 241, 241, 0.943); */
+    text-align: center;
+    background-image: url(images/back.png);
+}
+.FirstsongList{
+   
+    display: flex;
+    margin: 25px;
+}
+
+.A{
+    /* display: inline; */
+    height:200px;
+    width: 200px;
+    margin-right: 25px;
+    border-radius: 50%;
+    background-image: url("images/1.jpeg");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+    
+}
+.A:hover {
+            transform: scale(1.05);
+        }
+.B{
+    height:200px;
+    width: 200px;
+    
+    margin-right: 25px;
+    border-radius: 50%;
+    background-image: url("images/2.jpeg");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+}
+.B:hover {
+            transform: scale(1.05);
+        }
+
+.C{
+    height:200px;
+    width: 200px;
+    
+    margin-right: 25px;
+    border-radius: 50%;
+    background-image: url("images/3.jpg");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+}
+.C:hover {
+            transform: scale(1.05);
+        }
+
+.D{
+    height:200px;
+    width: 200px;
+    background-color: rgb(61, 67, 64);
+    margin-right: 25px;
+    border-radius: 50%;
+    background-image: url("images/4.jpg");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+}
+.D:hover {
+            transform: scale(1.05);
+        }
+
+.E{
+    height:200px;
+    width: 200px;
+    
+    margin-right: 25px;
+    border-radius: 50%;
+    background-image: url("images/5.jpg");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+}
+.E:hover {
+            transform: scale(1.05);
+        }
+
+.F{
+    height:200px;
+    width: 200px;
+    
+    margin-right: 25px;
+    border-radius: 50%;
+    background-image: url("images/6.jpeg");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+}
+.F:hover {
+            transform: scale(1.05);
+        }
+
+.G{
+    /* display: inline; */
+    height:200px;
+    width: 200px;
+    margin-right: 25px;
+    border-radius: 50%;
+    background-image: url("images/7.jpeg");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+    
+}
+.G:hover {
+            transform: scale(1.05);
+        }
+.H{
+    height:200px;
+    width: 200px;
+    
+    margin-right: 25px;
+    border-radius: 50%;
+    background-image: url("images/8.jpg");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+}
+.H:hover {
+            transform: scale(1.05);
+        }
+
+.I{
+    height:200px;
+    width: 200px;
+    
+    margin-right: 25px;
+    border-radius: 50%;
+    background-image: url("images/9.jpg");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+}
+.I:hover {
+            transform: scale(1.05);
+        }
+
+.J{
+    height:200px;
+    width: 200px;
+    background-color: rgb(61, 67, 64);
+    margin-right: 25px;
+    border-radius: 50%;
+    background-image: url("images/10.png");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+}
+.J:hover {
+            transform: scale(1.05);
+        }
+
+.K{
+    height:200px;
+    width: 200px;
+    
+    margin-right: 25px;
+    border-radius: 50%;
+    background-image: url("images/11.jpeg");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+}
+.K:hover {
+            transform: scale(1.05);
+        }
+
+.L{
+    height:200px;
+    width: 200px;
+    
+    margin-right: 25px;
+    border-radius: 50%;
+    background-image: url("images/12.jpg");
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s;
+}
+.M:hover {
+            transform: scale(1.05);
+        }
+
+
+
+.SecondsongList{
+    display: flex;
+    margin: 25px;
+}
+
+#bottom {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 90px;
+            background-color: #111112;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            /* background-image: url(playing.gif); */
+        }
+#myProgressBar {
+
+         width: 70%;
+         cursor: pointer;
+
+    }
+
+.play-icon{
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: hsl(300, 8%, 97%);  
+            padding: 8px;
+            border-radius: 50%;
+            font-size: 25px;
+        }
+       
+.songBanner{
+    font-weight: 900;
+    color:white;
+    margin-top:10px ;
+    position: relative;
+    box-shadow: 0 0 15px rgba(3, 240, 19, 0.3);
+    transition: transform 0.3s;
+
+}  
+.songBanner:hover {
+            transform: scale(1.05);
+        } 
+.AB{
+    margin-top: 150px;
+}    
+.timestamp{
+    font-size: larger;
+    font-weight: 900;
+} 
+
+
+button {
+        background: white;
+        border: none;
+        border-radius: 50%;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+.gifinfo{
+    font-weight: 900;
+    
+    position: absolute;
+    left: 600px;
+    top: 80px; 
+    font-family: 'Varela Round', sans-serif;
+    color: aliceblue;
+}    
+.gifinfo img{
+    opacity: 100;
+    transition: opacity 0.8s ease-in;
+    margin-left:30px;
+}
+.icons{
+    margin-top: 14px; 
+}
+.gifinfo i{
+    cursor: pointer;
+}
+#songname{
+   position: relative;
+    box-shadow: 0 0 15px rgb(245, 1, 168);
+    transition: transform 0.3s;
+ 
+}
+#song:hover {
+            transform: scale(1.05);
+        } 
+
+.Singerbox{
+    
+            color: rgb(252, 252, 251);
+            font-size: larger;
+            font-style: normal;
+    
+        }
+
+
+
+.singer1{
+    text-align: center;
+    margin-top: 170px;
+    color: #E0FBE0;
+    font-weight: 900;
+    font-weight: bolder;
+}
+
+
+.mearge{
+    display: flex;
+    margin: 25px;
+}
