@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone </title>
+    <link rel="stylesheet"href="shreya.css"/>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<body>
+    
+    <nav>
+        <ul>
+            <li class="brand"><img src="images/logo.png" alt="Spotify"> Spotify</li>
+            <li><a href="../home/home.html">Home</a></li>
+            <li> <a href="../aboutme/aboutme.html">Aboutme</a></li>
+        </ul>
+    </nav>
+
+    <div id="Container">
+         <h1 id="name"> Shreya Ghoshal Song List  </h1>
+        <div class="FirstsongList">
+            <div class="A" data-song="1.mp3">
+               <div class="AB"> <span class="songBanner">Sunn Raha Ha  <div> <span class="timestamp">3:39</span></span></div></div>
+             <div class="play-icon"><i class="fa-solid fa-play"></i></div>   
+            </div>  
+            <div class="B" data-song="2.mp3">
+                <div class="AB"> <span class="songBanner">Manwa Laage <div> <span class="timestamp">4:28</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="C" data-song="3.mp3">
+                <div class="AB"> <span class="songBanner" >Saibo <div> <span class="timestamp">3:21</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="D" data-song="4.mp3">
+                <div class="AB"> <span class="songBanner">Deewani Mastani <div> <span class="timestamp">5:53</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="E" data-song="5.mp3">
+                <div class="AB"> <span class="songBanner">Dola Re Dola  <div> <span class="timestamp">7:08</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="F" data-song="6.mp3">
+                <div class="AB"> <span class="songBanner">Samjhawan  <div> <span class="timestamp">4:25</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            
+        </div>
+           
+        <div class="SecondsongList">
+            
+            <div class="G" data-song="7.mp3">
+               <div class="AB"> <span class="songBanner">Teri Meri <div> <span class="timestamp">2:40</span></span></div></div>
+             <div class="play-icon"><i class="fa-solid fa-play"></i></div>   
+            </div>  
+            <div class="H" data-song="8.mp3">
+                <div class="AB"> <span class="songBanner">Nagada Sang Dhol  <div> <span class="timestamp">4:30</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+            </div>
+          
+            <div class="I" data-song="9.mp3">
+                <div class="AB"> <span class="songBanner" >Bahara <div> <span class="timestamp">4:08</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="J" data-song="10.mp3">
+                <div class="AB"> <span class="songBanner">Barso Re  <div> <span class="timestamp">4:42</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="K" data-song="11.mp3">
+                <div class="AB"> <span class="songBanner">O Rangrez  <div> <span class="timestamp">6:25</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="L" data-song="12.mp3">
+                <div class="AB"> <span class="songBanner">Yeh Ishq Haaye <div> <span class="timestamp">4:56</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            
+        </div>
+          
+            
+        
+        
+
+    </div>
+
+        
+
+    
+    
+    <div id="bottom">  
+        <div class="icon">     
+        <button id="prevBtn"><i class="fa-solid fa-backward"></i></button>
+        <button id="playPauseBtn"><i class="fa-solid fa-play"></i></button>
+        <button id="nextBtn"><i class="fa-solid fa-forward"></i></button></div> 
+        <input type="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="gifinfo">
+        <img src="images/playing.gif" width="70px" alt="" id="gif"> <span id="SongName"> Let me Love You........... </span>
+        </div>
+    </div>
+  <script src="shreya.js"></script> 
+  <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script> 
+</body>
+</html> 
