@@ -15,7 +15,7 @@ let songs = [
     { songName: "Hawayein........", filePath: "../songs/5.mp3" },
     { songName: "Agar Tum Saath Ho........", filePath: "../songs/6.mp3" },
     { songName: "Tera Yaar Hoon Main........", filePath: "../songs/7.mp3" },
-    { songName: "Khairiyat........", filePath: "../songs/8.mp3" },
+    { songName: "Khairiyat........", filePath: "../songs2/8.mp3" },
 ];
 
 // Select all song cards
@@ -142,6 +142,7 @@ function openSingerPage(page) {
 function openSingerPage(page){
     window.location.href = page;   // same tab open
 }
+
 
 
 
