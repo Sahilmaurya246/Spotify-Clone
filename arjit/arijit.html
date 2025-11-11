@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone </title>
+    <link rel="stylesheet"href="arijit.css"/>  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<body>
+    
+    <nav>
+        <ul>
+            <li class="brand"><img src="images/logo.png" alt="Spotify"> Spotify</li>
+            <li><a href="../home/home.html">Home</a></li>
+             <li><a href="../aboutme/aboutme.html ">Aboutme</a></li>
+        </ul>
+    </nav>
+
+    <div id="Container">
+         <h1 id="name"> Arijit Singh Song List  </h1>
+        <div class="FirstsongList">
+            <div class="A" data-song="1.mp3">
+               <div class="AB"> <span class="songBanner">Tum Hi Ho <div> <span class="timestamp">4:17</span></span></div></div>
+             <div class="play-icon"><i class="fa-solid fa-play"></i></div>   
+            </div>  
+            <div class="B" data-song="2.mp3">
+                <div class="AB"> <span class="songBanner">Channa Mereya<div> <span class="timestamp">5:45</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+            </div>
+            <div class="C" data-song="3.mp3">
+                <div class="AB"> <span class="songBanner" >Kesariya <div> <span class="timestamp">2:52</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="D" data-song="4.mp3">
+                <div class="AB"> <span class="songBanner">Shayad<div> <span class="timestamp">3:10</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="E" data-song="5.mp3">
+                <div class="AB"> <span class="songBanner">Hawayein <div> <span class="timestamp">4:51</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="F" data-song="6.mp3">
+                <div class="AB"> <span class="songBanner">Agar Tum Saath Ho<div> <span class="timestamp">6:41</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            
+        </div>
+           
+        <div class="SecondsongList">
+                
+            <div class="G" data-song="7.mp3">
+               <div class="AB"> <span class="songBanner">Tera Yaar Hoon Main<div> <span class="timestamp">4:27</span></span></div></div>
+             <div class="play-icon"><i class="fa-solid fa-play"></i></div>   
+            </div>  
+            <div class="H" data-song="8.mp3">
+                <div class="AB"> <span class="songBanner">Khairiyat<div> <span class="timestamp">3:38</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div>
+            </div>
+            
+            <div class="I" data-song="9.mp3">
+                <div class="AB"> <span class="songBanner" >Ae Dil Hai Mushkil<div> <span class="timestamp">5:00</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="J" data-song="10.mp3">
+                <div class="AB"> <span class="songBanner">Phir Bhi Tumko Chahunga <div> <span class="timestamp">6:00</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="K" data-song="11.mp3">
+                <div class="AB"> <span class="songBanner"> Muskurane Ki Wajah Tum Ho <div> <span class="timestamp">5:40</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            <div class="L" data-song="12.mp3">
+                <div class="AB"> <span class="songBanner"> Raabta (Agent Vinod) <div> <span class="timestamp">3:52</span></span></div></div>
+                <div class="play-icon"><i class="fa-solid fa-play"></i></div> 
+            </div>
+            
+        </div>
+          
+            
+    
+        
+
+    </div>
+
+        
+
+    
+    
+    <div id="bottom">  
+        <div class="icon">     
+        <button id="prevBtn"><i class="fa-solid fa-backward"></i></button>
+        <button id="playPauseBtn"><i class="fa-solid fa-play"></i></button>
+        <button id="nextBtn"><i class="fa-solid fa-forward"></i></button></div> 
+        <input type="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="gifinfo">
+        <img src="images/playing.gif" width="70px" alt="" id="gif"> <span id="SongName"> Let me Love You........... </span>
+        </div>
+    </div>
+  <script src="arijit.js"></script> 
+  <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script> 
+</body>
+</html> 

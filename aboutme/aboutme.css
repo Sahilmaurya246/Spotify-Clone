@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+nav{
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 18px;
+}
+.brand img{
+    width: 60px;
+    padding: 0 10px;
+    position: relative;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.918);
+    transition: transform 0.3s;
+}
+.brand img:hover{
+    transform: scale(1.05);
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+li{
+    font-size: 20px;
+}
+
+.about-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-container h2{
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(14, 13, 13);
+    display: inline-block;
+}
+
+.about-container p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+.skills{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+.skills li{
+    background: rgba(255,255,255,0.1);
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+}
