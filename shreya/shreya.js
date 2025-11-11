@@ -16,11 +16,11 @@ let songs = [
     { songName: "Dola Re Dola........", filePath: "../songs/5.mp3" },
     { songName: "Samjhawan (Female Version)........", filePath: "../songs/6.mp3" },
     { songName: "Teri Meri........", filePath: "../songs/7.mp3" },
-    { songName: "Nagada Sang Dhol........", filePath: "../songs/8.mp3" },
-    { songName: "Bahara – I Hate Luv Storys........", filePath: "../songs/9.mp3" },
-    { songName: "Barso Re........", filePath: "../songs/10.mp3" },
-    { songName: "O Rangrez........", filePath: "../songs/11.mp3" },
-    { songName: "Yeh Ishq Haaye........", filePath: "../songs/12.mp3" },
+    { songName: "Nagada Sang Dhol........", filePath: "../songs2/8.mp3" },
+    { songName: "Bahara – I Hate Luv Storys........", filePath: "../songs2/9.mp3" },
+    { songName: "Barso Re........", filePath: "../songs2/10.mp3" },
+    { songName: "O Rangrez........", filePath: "../songs2/11.mp3" },
+    { songName: "Yeh Ishq Haaye........", filePath: "../songs2/12.mp3" },
 ];
 
 // Select all song cards from BOTH lists
@@ -144,6 +144,7 @@ audioElement.addEventListener('ended', () => {
 function openSingerPage(page){
     window.location.href = page;   // same tab open
 }
+
 
 
 
