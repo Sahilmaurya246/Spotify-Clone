@@ -61,7 +61,7 @@ li{
     min-height: 80vh;
     /* background-color: rgba(247, 241, 241, 0.943); */
     text-align: center;
-    background-image: url(images/back.jpeg);
+    background-image: url(images/back.png);
 }
 .FirstsongList{
    
@@ -406,3 +406,4 @@ button {
     display: flex;
     margin: 25px;
 }
+
